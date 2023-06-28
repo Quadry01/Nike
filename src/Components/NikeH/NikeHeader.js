@@ -123,7 +123,6 @@ function NikeHeader() {
 
               <div className="men5">
                 <h4 className="subsection-header">
-                  {" "}
                   Accessories and <br /> Equipment
                 </h4>
                 <a href="Blank">

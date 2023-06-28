@@ -30,12 +30,6 @@ html {
 }
 
 .size-btn-wrapper {
-  /* margin-top: 30px;
-  display: grid;
-  width: 100%;
-  position: relative;
-  left: 40%;
-  grid-template-columns: repeat(3, auto); */
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -64,24 +58,7 @@ html {
   right: 150px;
   width: 60px;
 }
-/* .btn7 {
-  border: 1px solid #e5e5e5;
-  margin: 2px 2px;
-  padding: 15px;
-  border-radius: 5%;
-  cursor: pointer;
-  /* position: relative;
-  right: 200%;} */
-
-/* .btn8 {
-  border: 1px solid #e5e5e5;
-  margin: 2px 2px;
-  padding: 0 20px;
-  border-radius: 5%;
-  cursor: pointer;
-  /* position: relative;
-  right: 200%;} */
-*/ .btn1:hover,
+.btn1:hover,
 .btn2:hover,
 .btn3:hover,
 .btn4:hover,
@@ -192,7 +169,6 @@ html {
   padding-bottom: 0px;
   padding-left: 18px;
   padding-right: 18;
-  /* margin-bottom: 10px; */
 }
 .star-container {
   display: inline-flex;
@@ -295,13 +271,6 @@ html {
     margin: auto;
     margin-top: 25px;
     margin-left: 20px;
-
-    /* display: grid;
-    grid-template-columns: auto auto auto;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    position: relative;
-    left: 48%; */
   }
   .btn4,
   .btn5 {

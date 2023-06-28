@@ -2,7 +2,7 @@ import "./Catalogue.css";
 import { useState } from "react";
 import fullstr from "../../images/logo/fullstar.jpg";
 
-// Black shoes pictures imported
+/* Black shoes pictures imported */
 import black1 from "../../images/black/black-1.jpeg";
 import Vid1 from "../../images/black/video.mp4";
 import Vid2 from "../../images/whSole/video.mp4";
@@ -14,7 +14,7 @@ import black6 from "../../images/black/black-6.jpeg";
 import black7 from "../../images/black/black-7.jpeg";
 import black8 from "../../images/black/black-8.jpeg";
 
-// Blue shoes pictures imported
+/* Blue shoes pictures imported */
 import blue1 from "../../images/blue/blue1.jpeg";
 import blue2 from "../../images/blue/Blue2.jpeg";
 import blue3 from "../../images/blue/blue3.jpeg";
@@ -24,7 +24,7 @@ import blue6 from "../../images/blue/blue6.jpeg";
 import blue7 from "../../images/blue/blue7.jpeg";
 import blue8 from "../../images/blue/blue8.jpeg";
 
-// Green shoes pictures imported
+/* Green shoes pictures imported */
 import green1 from "../../images/green/green1.jpeg";
 import green2 from "../../images/green/green2.jpeg";
 import green3 from "../../images/green/green3.jpeg";
@@ -34,7 +34,7 @@ import green6 from "../../images/green/green6.jpeg";
 import green7 from "../../images/green/green7.jpeg";
 import green8 from "../../images/green/green8.jpeg";
 
-// Yellow shoes pictures imported
+/* Yellow shoes pictures imported */
 import yellow1 from "../../images/yellow/yellow1.jpeg";
 import yellow2 from "../../images/yellow/yellow2.jpeg";
 import yellow3 from "../../images/yellow/yellow3.jpeg";
@@ -44,7 +44,7 @@ import yellow6 from "../../images/yellow/yellow6.jpeg";
 import yellow7 from "../../images/yellow/yellow7.jpeg";
 import yellow8 from "../../images/yellow/yellow8.jpeg";
 
-// Pink shoes pictures imported
+/* Pink shoes pictures imported */
 import pink1 from "../../images/pink/pink1.jpeg";
 import pink2 from "../../images/pink/pink2.jpeg";
 import pink3 from "../../images/pink/pink3.jpeg";
@@ -54,7 +54,7 @@ import pink6 from "../../images/pink/pink6.jpeg";
 import pink7 from "../../images/pink/pink7.jpeg";
 import pink8 from "../../images/pink/pink8.jpeg";
 
-// whitesSole shoes pictures imported
+/* whitesSole shoes pictures imported */
 import bs1 from "../../images/whSole/bs1.jpeg";
 import bs2 from "../../images/whSole/bs2.jpeg";
 import bs3 from "../../images/whSole/bs3.jpeg";
@@ -65,7 +65,7 @@ import bs7 from "../../images/whSole/bs7.jpeg";
 import bs8 from "../../images/whSole/bs8.jpeg";
 
 function Catalogue() {
-  // States for Blacks
+  /* States for Blacks */
   const [black11, setBlack11] = useState(black2);
   const [black22, setBlack22] = useState(black8);
   const [black33, setBlack33] = useState(black1);
@@ -75,7 +75,7 @@ function Catalogue() {
   const [black77, setBlack77] = useState(black7);
   const [black88, setBlack88] = useState(black6);
 
-  // States for Blues
+  /* States for Blues */
   const [blue11, setBlue11] = useState(blue2);
   const [blue22, setBlue22] = useState(blue8);
   const [blue33, setBlue33] = useState(blue1);
@@ -85,7 +85,7 @@ function Catalogue() {
   const [blue77, setBlue77] = useState(blue7);
   const [blue88, setBlue88] = useState(blue6);
 
-  // States for Greens
+  /* States for Greens */
   const [green11, setGreen11] = useState(green2);
   const [green22, setGreen22] = useState(green8);
   const [green33, setGreen33] = useState(green1);
@@ -95,7 +95,7 @@ function Catalogue() {
   const [green77, setGreen77] = useState(green7);
   const [green88, setGreen88] = useState(green6);
 
-  // States for Yellow
+  /* States for Yellow */
   const [yellow11, setYellow11] = useState(yellow2);
   const [yellow22, setYellow22] = useState(yellow8);
   const [yellow33, setYellow33] = useState(yellow1);
@@ -105,7 +105,7 @@ function Catalogue() {
   const [yellow77, setYellow77] = useState(yellow7);
   const [yellow88, setYellow88] = useState(yellow6);
 
-  // States for Pink
+  /* States for Pink */
   const [pink11, setPink11] = useState(pink2);
   const [pink22, setPink22] = useState(pink8);
   const [pink33, setPink33] = useState(pink1);
@@ -115,7 +115,7 @@ function Catalogue() {
   const [pink77, setPink77] = useState(pink7);
   const [pink88, setPink88] = useState(pink6);
 
-  // States for whiteSole
+  /* States for whiteSole */
   const [bs11, setBs11] = useState(bs2);
   const [bs22, setBs22] = useState(bs8);
   const [bs33, setBs33] = useState(bs1);
@@ -126,7 +126,7 @@ function Catalogue() {
   const [bs88, setBs88] = useState(bs6);
   const [vid, setVid] = useState(Vid1);
 
-  // BLACK FUNCTION
+  /* BLACK FUNCTION */
   const BlackHandler = () => {
     setBlack33(black1);
     setBlack22(black8);
@@ -139,7 +139,7 @@ function Catalogue() {
     setVid(Vid1);
   };
 
-  // BLUE FUNCTION
+  /* BLUE FUNCTION */
   const BlueHandler = () => {
     if (black11 !== blue33) {
       setBlack11(blue33);
@@ -168,7 +168,7 @@ function Catalogue() {
     }
   };
 
-  // GREEN FUNCTION
+  /* GREEN FUNCTION */
   const GreenHandler = () => {
     if (black11 !== green33) {
       setBlack11(green33);
@@ -197,7 +197,7 @@ function Catalogue() {
     }
   };
 
-  // YELLOW FUNCTION
+  /* YELLOW FUNCTION */
   const YellowHandler = () => {
     if (black11 !== yellow33) {
       setBlack11(yellow33);
@@ -226,7 +226,7 @@ function Catalogue() {
     }
   };
 
-  // PINK FUNCTION
+  /* PINK FUNCTION */
   const PinkHandler = () => {
     if (black11 !== pink33) {
       setBlack11(pink33);
@@ -255,7 +255,7 @@ function Catalogue() {
     }
   };
 
-  // WhiteSole FUNCTION
+  /* WhiteSole FUNCTION */
   const BsHandler = () => {
     if (black11 !== bs33) {
       setBlack11(bs33);

@@ -12,12 +12,12 @@ import close from "../../images/logo/close.svg";
 import ardown from "../../images/logo/arrowdown.jpg";
 
 const SideBar = () => {
-  // to change burger class
+  /* to change burger class */
   const [menu_class, SetMenuClass] = useState("menu hidden");
   const [isMenuClicked, setIsMenuClicked] = useState(false);
   const [barIcon, setBarIcon] = useState(hamburger);
   const [blur, setBlur] = useState("");
-  // toggle burger menu
+  /* toggle burger menu */
   const updateMenu = () => {
     if (!isMenuClicked) {
       SetMenuClass("menu visible");
