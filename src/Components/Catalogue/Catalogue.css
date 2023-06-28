@@ -1,0 +1,259 @@
+.frame {
+  height: 455px;
+  width: 350px;
+  margin: 5px;
+}
+.high-rated {
+  display: flex;
+  position: absolute;
+  top: 27%;
+  left: 5.4%;
+  background-color: white;
+  padding: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  position: relative;
+  bottom: 1.6px;
+}
+.grid-item2 {
+  object-fit: cover;
+}
+.grid-container {
+  width: 50vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.choice-section {
+  position: absolute;
+  top: 148px;
+  right: 12%;
+  float: right;
+  padding: 20px 50px;
+  text-align: left;
+}
+
+.choice-header1 {
+  font-size: 30px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.choice-header2 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.choice-price {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.choice-btn1 {
+  width: 65px;
+  height: 70px;
+  right: 67%;
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.choice-btn2 {
+  width: 65px;
+  height: 70px;
+  right: 47%;
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.choice-btn3 {
+  width: 65px;
+  height: 70px;
+  right: 27%;
+
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+.choice-btn4 {
+  width: 65px;
+  height: 70px;
+  right: 7%;
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+.choice-btn5 {
+  width: 65px;
+  height: 70px;
+  right: -13%;
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+.choice-btn6 {
+  width: 65px;
+  height: 70px;
+  top: 118%;
+  border-radius: 5%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.choice-btn1:hover {
+  border: 1px solid;
+}
+
+.choice-btn2:hover {
+  border: 1px solid;
+}
+
+.choice-btn3:hover {
+  border: 1px solid;
+}
+.choice-btn4:hover {
+  border: 1px solid;
+}
+.choice-btn5:hover {
+  border: 1px solid;
+}
+.choice-btn6:hover {
+  border: 1px solid;
+}
+
+/* Tab screen  */
+@media screen and (max-width: 1010px) {
+  .frame {
+    height: 100%;
+    width: 90%;
+    margin: 5px;
+  }
+
+  .grid-container {
+    width: 45%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px;
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .choice-section {
+    position: absolute;
+    top: 148px;
+    float: right;
+    padding: 20px 50px;
+    text-align: left;
+  }
+}
+
+/* Phone screen */
+@media screen and (max-width: 640px) {
+  html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .catalogue {
+    display: flex;
+    flex-direction: column;
+  }
+  .choice-section {
+    position: absolute;
+    display: block;
+    padding: 0 0;
+    left: 20px;
+    margin-bottom: 20%;
+  }
+  .grid-container {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 0;
+    margin-right: 0px;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+    padding: 0px 15px;
+  }
+
+  .shoe-btn-wrapper {
+    position: relative;
+    bottom: 2%;
+    width: 300px;
+    height: 70px;
+    top: 470px;
+    padding: 0;
+    margin: auto;
+    overflow-x: scroll;
+  }
+
+  .choice-btn1 {
+    width: 70px;
+    height: 75px;
+    right: 76%;
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .choice-btn2 {
+    width: 70px;
+    height: 75px;
+    right: 49%;
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .choice-btn3 {
+    width: 70px;
+    height: 75px;
+    right: 22%;
+
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .choice-btn4 {
+    width: 70px;
+    height: 75px;
+    right: -5%;
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .choice-btn5 {
+    width: 70px;
+    height: 75px;
+    right: -32%;
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+  .choice-btn6 {
+    width: 70px;
+    height: 75px;
+    right: -59%;
+    top: 0;
+    border-radius: 5%;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .high-rated {
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+  }
+}

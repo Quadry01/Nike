@@ -1,0 +1,62 @@
+.carousel-img {
+  height: 350px;
+  width: 310px;
+  margin: 20px;
+}
+.card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.title {
+  font-size: 25px;
+  text-align: left;
+  display: inline;
+  position: relative;
+  left: -17px;
+}
+.category {
+  color: #9c9c9c;
+  text-align: left;
+  position: relative;
+  left: -99px;
+  top: 5px;
+}
+.price {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 17px;
+  margin-top: 13px;
+}
+.carousel-header {
+  position: relative;
+  left: -40%;
+  margin: 0px;
+}
+
+/* Phone screen */
+@media screen and (max-width: 640px) {
+  .card {
+    margin-left: 45px;
+  }
+  .card-top {
+    margin: auto;
+  }
+  .carousel-header {
+    position: absolute;
+    left: 5%;
+    margin: 0px;
+  }
+
+  .price {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 13px;
+  }
+
+  .carousel-img {
+    height: 350px;
+    width: 310px;
+    margin: 20px 20px;
+  }
+}
